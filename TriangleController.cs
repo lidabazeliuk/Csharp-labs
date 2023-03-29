@@ -18,6 +18,8 @@ namespace TriangleAPI.Controllers
 
             return Ok(area);
         }
+        
+        
         [HttpGet("zavd2")]
         public ActionResult Get(double a, int n)
         {
